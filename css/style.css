@@ -1,0 +1,49 @@
+@font-face {
+    font-family: "yekan";
+    src: url(../fonts/yekan.eot);
+    src: url(../fonts/yekan.eot?#iefix) format("embedded-opentype"),
+    url(../fonts/yekan.ttf) format("truetype"),
+    url(../fonts/yekan.woff) format("woff");
+}
+*{
+    padding: 0;
+    margin: 0;
+    outline: none;
+}
+body{
+    direction: rtl;
+    font-family: "yekan";
+}
+header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+h2{    
+    font-size: 3rem;
+    padding: 20px 0;
+}
+header .progress{
+    width: 100%;
+    background-color: #efefef;
+    height: 10px;
+}
+header .progress .progress-bar{
+    width: 0;
+    height: 100%;
+    background: linear-gradient(to right,rgb(184,2,216), rgb(255,0,0));
+}
+div.content{
+    margin-top: 100px;
+    padding: 50px 100px;
+}
+div.content p{
+    font-size: 1.3rem;
+    line-height: 30px;
+    margin-top: 20px;
+}
